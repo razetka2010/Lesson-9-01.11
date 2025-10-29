@@ -1,32 +1,20 @@
-print("Ты пог или пог?")
-print("1 пог")
-print("2 не я не пог")
-print("3 пог")
-Pog1= int(input("Введите номер ответа: "))
+quiz = [
+    {"text": "Ты пог или пог?", "options": ["пог", "не я не пог", "пог"], "answer": 0},
+    {"text": "Какая самая лучшая Oc?", "options": ["Mac Oc", "Linux", "Winda"], "answer": 0},
+    {"text": "2 + 2", "options": ["5", "4", "5000", "8"], "answer": 1}
+]
 
-print("Какая самая лучшая Oc?")
-print("1 Mac Oc")
-print("2 Linux")
-print("3 Winda")
-Pog2 = int(input("Введите номер ответа: "))
+score = 0
 
-print("2+2?")
-print("1 4")
-print("2 8")
-print("3 1")
-Pog3 = int(input("Введите номер ответа: "))
+for q in quiz:
+    print(q["text"])
+    for i, opt in enumerate(q["options"]):
+        print(f"{i}) {opt}")
+    
+    user_answer = int(input("Ваш ответ (введите номер): "))
+    if user_answer == q["answer"]:
+        score += 1
+    print()
 
-good = 0
-if Pog1 == 1:
-   good += 1
-
-if Pog2 == 2:
-    good += 1
-
-if Pog3 == 1:
-    good += 1
-
-Gop = (good / 3) * 100
-
-print(f"{good} из 3")
-print(round(Gop, 2), "%")
+percent = round(score / len(quiz) * 100, 2)
+print("Результат:", percent, "%")
