@@ -5,7 +5,7 @@
 
 [![Website](https://img.shields.io/badge/🌐_Сайт--визитка-FF6B6B?style=for-the-badge&logo=starship&logoColor=white)](https://razetka2010.github.io/Business-card-website/)
 [![Projects](https://img.shields.io/badge/🚀_Проекты-4ECDC4?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/razetka2010)
-[![Contact](https://img.shields.io/badge/💌_Написать_мне-45B7D1?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:your.email@example.com)
+[![Contact](https://img.shields.io/badge/💌_Написать_мне-45B7D1?style=for-the-badge&logo=mail.ru&logoColor=white)](https://t.me/dapogkakto)
 
 </div>
 
