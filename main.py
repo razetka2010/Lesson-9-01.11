@@ -16,7 +16,7 @@ root.config(bg='#d2c3d5')
 #     root.after(100, play, (i+1) % len(gif))
 
 # img = PhotoImage(file="1.png")
-# label = Label(root, image=img, bg='#d2c3d5)
+# label = Label(root, image=img, bg='#d2c3d5')
 # label.pack(pady=20)
 # 
 # label = Label(root, bg="#d2c3d5")
